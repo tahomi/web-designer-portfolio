@@ -1,20 +1,72 @@
+@font-face {
+    font-family: 'Lobster 1.4';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lobster 1.4'), url('Lobster 1.4.woff') format('woff');
+}
+body{
+    min-width: 1020px;
+    margin: 0px;
+    background: url(img/background.gif) no-repeat;
+    background-size: 100%;
+}
 #wrapper{
-
+    margin-top: -750px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+}
+#header-font{
+    height: 100px;
+    width: 100%;
+}
+#top{
+    width: 100%;
+    height: 36px;
+    background-color: black;
+}
+#bot{
+    width: 100%;
+    height: 64px;
+    background-color: white;
+}
+#other{
+    background-color: white;
+    width: 100%;
+    margin-top: 280px;
+    height: 370px;
 }
 header{
-
+    height: 100px;
+    
+    display: flex;
+    width: 1020px;
+    text-align: center;
+    align-items: center;
+}
+.start-panel{
+    display: flex;
 }
 .logo{
-
+    margin-top: 16px;
+    background-color: #da2020;
+    min-height: 116px;
+    min-width: 103px;
+    font-family: 'Lobster 1.4';
+}
+.header-content{
+    display: block;
 }
 nav{
 
 }
 ul{
-
+    margin: unset;
+    display: flex;
 }
 li{
-
+    display: block;
+    margin-left: 30px;
 }
 #greeting{
 
@@ -72,5 +124,5 @@ footer{
 
 }
 #footer{
-    
+
 }
