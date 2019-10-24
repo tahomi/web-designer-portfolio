@@ -4,6 +4,9 @@
     font-weight: normal;
     src: local('Lobster 1.4'), url('Lobster 1.4.woff') format('woff');
 }
+*{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
 body{
     min-width: 1020px;
     margin: 0px;
@@ -30,15 +33,19 @@ body{
     height: 64px;
     background-color: white;
 }
+#details-font{
+    background-color: white;
+    margin-top: 280px;
+    height: 82px;
+    border-bottom: 1px solid #cccccc;
+}
 #other{
     background-color: white;
     width: 100%;
-    margin-top: 280px;
-    height: 370px;
+    height: 288px;
 }
 header{
     height: 100px;
-    
     display: flex;
     width: 1020px;
     text-align: center;
@@ -48,68 +55,105 @@ header{
     display: flex;
 }
 .logo{
+    padding-top: 30px;
+    font-size: 57px;
+    color: white;
     margin-top: 16px;
     background-color: #da2020;
-    min-height: 116px;
+    min-height: 86px;
     min-width: 103px;
     font-family: 'Lobster 1.4';
 }
 .header-content{
+    height: 100px;
     display: block;
 }
 nav{
-
+    text-align: center;
+    margin-top: -1px;
+    height: 36px;
 }
 ul{
     margin: unset;
+    height: 36px;
     display: flex;
 }
 li{
-    display: block;
+    align-items: center;
+    color: white;
     margin-left: 30px;
+    display: grid;
 }
 #greeting{
-
+    margin-left: 50px;
+    height: 64px;
+}
+#greeting-text{
+    font-family: 'Perpetua Titling MT', serif;
+    font-size: 23px;
 }
 #social{
-
+    margin-top: 12px;
+    margin-left: auto;
+    width: 162px;
+    height: 72px;
 }
 .social{
-
+    margin-left: 10px;
+    box-shadow: 0px 0px 70px 9px rgba(255,255,255,1);
+    margin-top: 17.6px;
+    width: 33px;
+    height: 33px;
 }
 #details{
-
+    margin-top: 280px;
+    height: 82px;
+    display: flex;
 }
 .avatar{
-
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,1);
+    height: 178px;
+    width: 169px;
+    margin-top: -113px;
+}
+#details-text{
+    padding-top: 17px;
+    margin-left: 22px;
 }
 #name{
-
+    font-size: 18px;
+    margin: unset;
 }
 #status{
-
+    margin: unset;
 }
 
 main{
-
+    display: flex;
 }
 article{
 
 }
 #description{
-
+    width: 440px;
+    height: 240px;
 }
 h1{
 
 }
 #first-par{
-
+    font-size: 13px;
+    margin: unset;
 }
 #second-par{
-
+    margin: unset;
+    font-size: 13px;
 }
 #projects{
 
+}
+#projects-wrapper{
+    display: flex;
 }
 .projects{
 

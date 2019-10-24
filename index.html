@@ -11,6 +11,7 @@
             <div id="top"></div>
             <div id="bot"></div>
         </div>
+        <div id="details-font"></div>
         <div id="other"></div>
     </div>
 
@@ -26,24 +27,29 @@
           <nav>
             <ul>
               <li>HOME</li>
+              <li>I</li>
               <li>ABOUT ME</li>
+              <li>I</li>
               <li>PORTFOLIO</li>
+              <li>I</li>
               <li>CONTACT</li>
             </ul>
           </nav>
         </div>
-        <div id="greeting">Hi there,  i am a Web/UI/ux Designer & Developer </div>
+        <div id="greeting"><p id="greeting-text">Hi there,  i am a Web/UI/ux Designer & Developer</p></div>
       </div>
       <div id="social">
-        <a class="social"><img src="src/img/facebook.gif"/></a>
-        <a class="social"><img src="src/img/tumbler.gif"/></a>
-        <a class="social"><img src="src/img/linked.gif"/></a>
+        <a class="social" href="#"><img src="src/img/facebook.gif"/></a>
+        <a class="social" href="#"><img src="src/img/tumbler.gif"/></a>
+        <a class="social" href="#"><img src="src/img/linked.gif"/></a>
       </div>
     </header>
       <div id="details">
         <img class="avatar" src="src/img/profile.gif"/>
-        <p id="name"></p>
-        <p id="status"></p>
+        <div id="details-text">
+          <p id="name"><strong>Krishnanunni</strong></p>
+          <p id="status">Freelance Web designer & developer</p>
+        </div>
       </div>
     <main>
       <article id="description">
@@ -53,17 +59,19 @@
       </article>
       <article id="projects">
         <h1>Latest projects</h1>
-        <div class="projects">
-            <img class="project-img" src="src/img/Yacht.gif"/>
-            <span class="progect-name">Progect : Yacht rentel</span>
-        </div>
-        <div class="projects">
-            <img class="project-img" src="src/img/iphone.gif"/>
-            <span class="progect-name">Progect : Mob Apps</span>
-        </div>
-        <div class="projects">
-            <img class="project-img" src="src/img/dental.gif"/>
-            <span class="progect-name">Progect : Dental Cap</span>
+        <div id="projects-wrapper">
+          <div class="projects">
+              <img class="project-img" src="src/img/Yacht.gif"/>
+              <span class="progect-name">Progect : Yacht rentel</span>
+          </div>
+          <div class="projects">
+              <img class="project-img" src="src/img/iphone.gif"/>
+              <span class="progect-name">Progect : Mob Apps</span>
+          </div>
+          <div class="projects">
+              <img class="project-img" src="src/img/dental.gif"/>
+              <span class="progect-name">Progect : Dental Cap</span>
+          </div>
         </div>
       </article>
     </main>
