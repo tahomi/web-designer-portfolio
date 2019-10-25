@@ -141,16 +141,12 @@ li{
 main{
     display: flex;
 }
-article{
 
-}
 #description{
     width: 440px;
     height: 240px;
 }
-h1{
 
-}
 #first-par{
     font-size: 13px;
     margin: unset;
@@ -179,7 +175,4 @@ h1{
 }
 footer{
     text-align: center;
-}
-#footer{
-
 }
